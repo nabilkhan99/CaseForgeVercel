@@ -1,0 +1,25 @@
+# Root level
+venv/
+.env
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+
+# Backend
+Backend/__pycache__/
+Backend/*.pyc
+Backend/.env
+Backend/venv/
+
+# Frontend
+Frontend/gp-portfolio-frontend/node_modules/
+Frontend/gp-portfolio-frontend/.next/
+Frontend/gp-portfolio-frontend/.env*
+Frontend/gp-portfolio-frontend/.vercel
+Frontend/gp-portfolio-frontend/build
+Frontend/gp-portfolio-frontend/dist
+
+# OS specific
+.DS_Store
+Thumbs.db
